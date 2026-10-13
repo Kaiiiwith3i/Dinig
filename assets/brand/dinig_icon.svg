@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="DINIG emergency voice dispatch icon">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff504c"/><stop offset="1" stop-color="#ed183c"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#293550"/><stop offset="1" stop-color="#10192d"/></linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff6a4a"/><stop offset="1" stop-color="#ff374b"/></linearGradient>
+    <clipPath id="dClip"><path d="M255 153H563C764 153 884 307 884 512S764 871 563 871H255C222 871 201 850 201 818V206C201 175 223 153 255 153Z"/></clipPath>
+  </defs>
+  <rect width="1024" height="1024" rx="215" fill="#faf9f7"/>
+  <!-- Bold D structure with broad warm emergency signal field -->
+  <path d="M255 153H563C764 153 884 307 884 512S764 871 563 871H255C222 871 201 850 201 818V206C201 175 223 153 255 153Z" fill="url(#red)"/>
+  <g clip-path="url(#dClip)">
+    <path d="M505 268C710 244 837 366 844 519C850 644 794 738 679 804C758 652 758 410 505 268Z" fill="url(#coral)" opacity=".88"/>
+    <!-- White speech-space cutout: the silhouette remains generic and inclusive -->
+    <path d="M365 245C494 238 648 290 706 416C748 508 708 648 620 708C563 747 479 763 353 759C318 759 277 785 242 860L242 714C275 639 337 618 412 631C451 639 477 615 456 594C432 571 442 552 461 539C477 528 479 519 466 507C447 491 459 473 480 462C507 448 504 428 486 409C442 366 400 303 365 245Z" fill="#faf9f7"/>
+    <!-- Facing-right human silhouette in navy -->
+    <path d="M201 153H316C389 191 419 257 422 314C425 355 448 385 480 416C492 428 496 441 479 452L458 468C450 476 453 489 467 497C478 505 476 513 461 520C444 528 445 544 459 559C474 576 465 595 449 603C427 613 402 604 369 603C314 600 267 650 245 703L218 851L201 817Z" fill="url(#navy)"/>
+    <path d="M201 791C260 724 297 697 348 711C401 730 439 747 499 748C458 770 409 803 380 871H201Z" fill="url(#navy)"/>
+    <!-- Three radiating emergency voice arcs -->
+    <g fill="none" stroke="#f42543" stroke-width="29" stroke-linecap="round">
+      <path d="M527 492Q552 514 527 540"/>
+      <path d="M578 441Q654 516 578 591"/>
+      <path d="M629 394Q750 516 629 638"/>
+    </g>
+  </g>
+</svg>
